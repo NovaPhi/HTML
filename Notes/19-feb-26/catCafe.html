@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <link rel="stylesheet" href="catCafe.css"/>
+    <meta charset="UTF-8">
+    <title>Cat Cafe</title>
+    <script src="catCafe.js"></script>
+</head>
+
+<style>
+body {
+    background-image: url('download.jpeg');
+    background-size:100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    backface-visibility: inherit;
+}
+</style>
+
+<div style="text-align: center;">
+    <body>
+        <div class="Header">
+            <h1>Maxwell Cafe</h1>
+        </div>
+
+        <div class="Content">
+            <p>Shinji's mantra</p> 
+            <p>"I mustn't run away,"</p>
+            <p> Kaworu’s poetic </p>
+            <p>"The thread of human hope is spun with the flax of sorrow," </p>
+            <p> the haunting, philosophical,</p> 
+            <p id="par1";>"One who truly hates himself cannot love"</p>            
+        </div>
+   
+        <div class="Maxwell">
+            <img src="maxwell-cat.gif" ></img>
+            
+        </div>
+        <marquee behavior="alternate" scrollamout="30">
+            <marquee behavior="alternate" scrollamout="30" direction = "down";>
+                <img src="maxwell-cat.gif">
+                </img>
+            </marquee>       
+        </marquee>
+        <div>
+            <button type="button" onclick="traducir()">Traductor</button>
+            <button type="button" onclick="background()">otro_fondo</button>
+        </div>
+        <div style="text-align: right;">
+            <img src="pikachu-spin.gif" style="position: sticky ;" ></img>
+        </div>
+        <div>
+            <iframe width="772" height="668" src="https://www.youtube.com/embed/lUcfDaWt8V4?autoplay=1&loop=1" title="BOUNCING YARIS" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <a href="https://rainbet.com/">50k de AGRAPA</a>
+        <audio controls loop>
+            <source src="1. FLY ME TO THE MOON.mp3" type="audio/mpeg" style="position: absolute;">
+        </audio>
+
+        <div class="Footer">
+            <h6>derechos reservados</h6>
+        </div>
+    </body>
+    <script>
+        function traducir(){
+            document.getElementById("par1").innerHTML="Traduccion"
+        }
+    </script>
+    <script>
+        function background(){
+           document.style.backgroundImage= none;
+        }
+    </script>
+</div>
+
+   
+
+    
+
+
+
+</html>
