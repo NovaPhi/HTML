@@ -1,8 +1,14 @@
 body{
-    color: beige; 
+    background-image: url("download.jpeg");
+    color: purple; 
+    background-size: cover;    
+    background-position: center; 
+    background-repeat: no-repeat;
 }
 
+
 .Header{
+    text-align: center;
     color: purple;
     font-size: xx-large;
     margin-right: auto;
@@ -11,12 +17,13 @@ body{
 }
 
 .Content{
+    text-align:center;
     border-style: dashed;
     border-radius: 2%;
     border-color: greenyellow;
     color: purple;
     font-family: sans-serif;
-    font-size: large;
+    font-size: x-large;
     margin-top: auto;
     margin-bottom: 70px;
     margin-left: auto;
